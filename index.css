@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------- */
+*{
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    
+    padding: 50px;
+    position: relative;
+    left: 30px;
+    font-size:80px ;
+    font-family: 'Chelsea Market', cursive;
+    background:url(https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap);
+    
+}
+h2{
+   font-size: 25px; 
+}
+.header_image{
+    margin: 100px 100px 70px 100px;
+    float: left;
+    width: 400px;
+    height: 400px;
+    display: inline;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content:center ;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+nav{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.a1{
+    text-align: center;
+    font-size: 26px;
+    width: auto;
+    margin: 40px 10px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    background: #FF764E;
+    text-decoration: none;
+    
+}
+.a2{
+    text-align: center;
+    font-size: 26px;
+    width: auto;
+    margin: 40px 10px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    background: #5ED3EB;
+    text-decoration: none;
+    
+}
+.a3{
+    text-align: center;
+    font-size: 26px;
+    width: auto;
+    margin: 40px 10px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    background: #FFCD69;
+    text-decoration: none;
+    
+}
+nav a{
+    width: 50px;
+}
+.about{
+    background-color: #DDB9A3;
+}
+footer{
+    width: 65%;
+    margin: 0 auto;
+    background-color: #F9E7DC;
+}
+.about{
+    padding: 1% 2%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.header_content{
+    margin-top: 100px;
+}
+.header_content h2{
+    text-align: center;
+    margin: 40px auto 20px auto;
+    width: 80%;
+    
+}
+.header_content h2:last-child{
+    width: 45%;
+
+}
+.content-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.content-row div{
+    width: 50%;
+    margin: 0 auto;
+}
+.content-row img{
+    width: 10%;
+    height: 100px;
+    margin-left: 600px;
+}
+.content-row p{
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.footer_img img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.footer_content{
+
+}
+span{
+    font-weight: bolder;
+}
